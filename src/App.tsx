@@ -1,27 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+    debugger
     return (
         <div>
             This is APP component
+            <Rating/>
+            <Accordion/>
         </div>
     );
 }
 
 const Rating = () => {
+    debugger
     return (
         <div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
         </div>
     )
 }
+
+const Star = () => {
+    return <div>star</div>
+}
+
 const Accordion = () => {
+    debugger
     return (
         <div>
             <h3>Menu</h3>

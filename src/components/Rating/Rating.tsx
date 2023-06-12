@@ -5,7 +5,7 @@ type RatingPropsType = {
 }
 
 export const Rating = (props: RatingPropsType) => {
-    console.log("Rating rendering")
+    console.log("UncontrolledRating rendering")
     return (
         <div>
             <Star selected={props.value > 0}/>

@@ -23,7 +23,7 @@ type AccordionTitlePropsType = {
 
 const AccordionTitle = (props: AccordionTitlePropsType) => {
     console.log("AccordionTitle rendering")
-    return <h3 onClick={props.setCollapsed}>{props.title}</h3>
+    return <h3 onClick={()=>props.setCollapsed()}>{props.title}</h3>
 }
 
 const AccordionBody = () => {

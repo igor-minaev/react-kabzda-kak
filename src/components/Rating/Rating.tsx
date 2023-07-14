@@ -3,7 +3,13 @@ import React from "react";
 export type RatingValueType = 0 | 1 | 2 | 3 | 4 | 5
 
 type RatingPropsType = {
+    /**
+     * How much stars will choose
+     * **/
     value: RatingValueType
+    /**
+     * Click handler
+     * **/
     onClick: (value: RatingValueType) => void
 }
 

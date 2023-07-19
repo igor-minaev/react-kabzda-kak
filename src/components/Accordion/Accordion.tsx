@@ -1,8 +1,14 @@
 import React from "react";
 
-type AccordionPropsType = {
+export type AccordionPropsType = {
+    /**
+     * Title of list
+     */
     title: string
     collapsed: boolean
+    /**
+     * Callback which is called when any item clicked
+     */
     onClick: () => void
 }
 
